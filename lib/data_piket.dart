@@ -8,7 +8,6 @@ class DataPiketPage extends StatefulWidget {
   State<DataPiketPage> createState() => _DataPiketPageState();
 }
 
-
 class _DataPiketPageState extends State<DataPiketPage> {
   final _formKey = GlobalKey<FormState>();
   final namaController = TextEditingController();
