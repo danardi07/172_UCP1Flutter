@@ -4,7 +4,6 @@ import 'package:ucp1_flutter/data_pelanggan.dart';
 import 'package:ucp1_flutter/data_piket.dart';
 import 'package:ucp1_flutter/loginpage.dart';
 
-
 class HomePage extends StatelessWidget {
   final String email;
   const HomePage({super.key, required this.email});
