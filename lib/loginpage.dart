@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderSide: const BorderSide(color: Colors.grey),
                       ),
                     ),
-                    
+
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return 'Email tidak boleh kosong';
@@ -135,12 +135,14 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       const Text('Belum memiliki akun? Silahkan '),
                       GestureDetector(
+
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (_) => const RegisterPage()),
                           );
                         },
+                        
                         child: const Text(
                           'Daftar disini!',
                           style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
