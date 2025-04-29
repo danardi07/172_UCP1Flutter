@@ -12,6 +12,7 @@ class DetailTugasPage extends StatelessWidget {
     required this.tugas,
   });
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
