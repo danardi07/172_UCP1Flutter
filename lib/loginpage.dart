@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderSide: const BorderSide(color: Colors.grey),
                       ),
                     ),
-
+                    
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return 'Email tidak boleh kosong';
