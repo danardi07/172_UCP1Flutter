@@ -55,6 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                     alignment: Alignment.centerLeft,
                     child: Text('Email', style: TextStyle(fontWeight: FontWeight.bold)),
                   ),
+
                   const SizedBox(height: 8),
                   TextFormField(
                     controller: emailController,
@@ -69,6 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderSide: const BorderSide(color: Colors.grey),
                       ),
                     ),
+                    
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return 'Email tidak boleh kosong';
@@ -83,6 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                     alignment: Alignment.centerLeft,
                     child: Text('Password', style: TextStyle(fontWeight: FontWeight.bold)),
                   ),
+
                   const SizedBox(height: 8),
                   TextFormField(
                     controller: passwordController,
@@ -99,6 +102,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderSide: const BorderSide(color: Colors.grey),
                       ),
                     ),
+
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return 'Password tidak boleh kosong';
