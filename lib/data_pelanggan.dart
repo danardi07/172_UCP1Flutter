@@ -8,7 +8,6 @@ class DataPelangganPage extends StatefulWidget {
   State<DataPelangganPage> createState() => _DataPelangganPageState();
 }
 
-
 class _DataPelangganPageState extends State<DataPelangganPage> {
   final _formKey = GlobalKey<FormState>();
   final TextEditingController _namaController = TextEditingController();
